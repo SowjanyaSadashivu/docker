@@ -47,6 +47,13 @@
 	- deletes image <br /> 
 - docker rm -f containerID    <br />
 	- forcefully deletes the container. <br />
+	
+	
+<em><strong>To pull this topic from my docker repository</strong></em> <br />
+ 
+- docker pull sowjanyasadashiva/hello-world    <br />          
+- docker run -d -p 5000:5000 hello-world         <br />         
+	
  
  
  
