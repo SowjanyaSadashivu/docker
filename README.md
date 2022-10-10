@@ -2,7 +2,7 @@
 
 ### Initial steps:
  1. Download and install Docker windows.
- 2. Register and login to Coder hub.
+ 2. Register and login to Docker hub.
   - All our Docker repositories are in Docker hub.
 
 
