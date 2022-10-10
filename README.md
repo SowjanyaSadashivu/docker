@@ -1,17 +1,20 @@
 ## Creating Docker images.
 
-** Initial steps:
+### Initial steps:
  1. Download and install Docker windows.
  2. Register and login to Coder hub.
   - All our Docker repositories are in Docker hub.
 
 
-step 1: <br />
+### step 1: <br />
  create a folder with all necessary code. <br />
-step 2:<br />
+ 
+### step 2:<br />
  create requirements.txt with the list of neccesary libraries.<br />
-step 3: <br />
+ 
+### step 3: <br />
  Add Dockerfile in the folder.<br />
+ 
  		 <em><strong> FROM python:3.7    //it copies this docker image from docker hub. </em></strong> <br />
 		 * COPY .  /app              //copy the code in local folder to app folder in docker image * <br />
 		 *WORKDIR /app        //keeping app folder as working directory* <br />
