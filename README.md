@@ -49,7 +49,7 @@
 	- forcefully deletes the container. <br />
 	
 	
-<em><strong>To pull this topic from my docker repository</strong></em> <br />
+<em><strong>To pull this image from my docker repository</strong></em> <br />
 
  ![docker_hub](https://user-images.githubusercontent.com/67077357/194800836-ef35dba3-97ea-4238-bcda-48fe158d6940.png)  <br />
 
