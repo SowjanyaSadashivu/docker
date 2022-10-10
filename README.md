@@ -23,20 +23,20 @@
 
  
 
-commands to create Docker image <br />
+### commands to create Docker image <br />
 
-In local machine: <br />
+<em><strong> In local machine: </strong></em> <br />
 
 - docker build -t <dockerimagename> .<br />
 - docker images  //gives the list of docker images <br />
 - docker run -d -p <hostport>:<containerport> <containername> <br />
 
-To push the Docker image to Docker hub: <br />
+<em><strong> To push the Docker image to Docker hub: </strong></em> <br />
 
 - docker build -t <username>/<dockerimage> . <br />
 - docker push <username>/<dockerimage>:latest <br />
 
-Few usful Docker Commands <br />
+<em><strong> Few usful Docker Commands </strong></em> <br />
  
 - docker images //lists all the docker images <br />
 - docker ps  //lists the running containers <br />
