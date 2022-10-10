@@ -28,7 +28,8 @@
 <em><strong> In local machine: </strong></em> <br />
 
 - docker build -t dockerimagename .<br />
-- docker images         //gives the list of docker images <br />
+- docker images     <br />     
+ 	- gives the list of docker images <br />
 - docker run -d -p hostport:containerport containername <br />
 
 <em><strong> To push the Docker image to Docker hub: </strong></em> <br />
@@ -38,10 +39,14 @@
 
 <em><strong> Few usful Docker Commands </strong></em> <br />
  
-- docker images              //lists all the docker images <br />
-- docker ps                  //lists the running containers <br />
-- docker rmi imageID         //deletes image <br /> 
-- docker rm -f containerID   //forcefully deletes the container. <br />
+- docker images    <br />          
+ 	- lists all the docker images <br />
+- docker ps         <br />         
+	- lists the running containers <br />
+- docker rmi imageID   <br />      
+	- deletes image <br /> 
+- docker rm -f containerID    <br />
+	- forcefully deletes the container. <br />
  
  
  
